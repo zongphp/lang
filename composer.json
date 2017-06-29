@@ -1,0 +1,22 @@
+{
+  "name": "zongphp/lang",
+  "description": "组件提供便捷的多语言支持",
+  "type": "project",
+  "keywords": [
+    "language",
+    "多语言"
+  ],
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4.0",
+    "zongphp/config": "~1.0",
+    "zongphp/arr": "~1.0"
+  },
+  "autoload": {
+    "files": [],
+    "psr-4": {
+      "zongphp\\lang\\": "src"
+    }
+  }
+}
